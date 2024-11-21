@@ -1,0 +1,10 @@
+[profile.default]
+src = "contracts"
+libs = ["lib"]
+solc = "0.8.25"
+ 
+ 
+remappings = [
+    "@unruggable/gateways=node_modules/@unruggable/gateways/contracts/",
+    "@openzeppelin=node_modules/@openzeppelin/contracts/"
+]
