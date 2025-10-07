@@ -13,6 +13,7 @@ To run this example simple checkout the repo, install the dependencies, and run 
 ```
 git clone https://github.com/unruggable-labs/unruggable-gateways-trusted-verifier-example.git
 bun i
+forge install
 bun test test/trusted-verifier.test.ts
 ```
 
